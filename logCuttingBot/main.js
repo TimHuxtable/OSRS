@@ -120,7 +120,7 @@ function findTreeByColor() {
     let img = robot.screen.capture(x, y, width, height);
     //An array with colors of the tree's trunk.
     let treeColors = ["644c2c","5d472a","674f2e","594429"]
-
+//test
     for (let i = 0; i < 500; i++) {
         let randomX = getRandomInt(0, width - 1);
         let randomY = getRandomInt(0, height - 1);
